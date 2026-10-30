@@ -1,4 +1,4 @@
-const CACHE_NAME = "paycheck-calculator-v6";
+const CACHE_NAME = "paycheck-calculator-v7";
 const FILES_TO_CACHE = [
     "./background.jpg",
     "./icon.png",
