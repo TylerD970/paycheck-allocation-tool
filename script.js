@@ -17,7 +17,7 @@ function calculateDistribution() {
     const paycheck = Number(amount) || 0;
 
     const remittance = paycheck * 0.40;
-    const tithe = paycheck * 0.10;
+    const tithe = (paycheck-remittance) * 0.10;
     const savings = paycheck * 0.25;
     const remaining = paycheck - remittance - tithe - savings;
 
